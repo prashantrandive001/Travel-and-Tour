@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travel and Tours</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        * {
+            font-family: cursive;
+        }
+
+        #logo {
+            border-radius: 20px;
+        }
+
+        ul {
+            margin-left: 570px;
+
+        }
+
+        img {
+            border-radius: 40px;
+        }
+
+     
+
+        .card {
+            margin: 40px 20px 20px 60px;
+            color: black;
+            box-shadow: 1px 1px 30px gray;
+            border-radius: 20px;
+
+        }
+
+        #cards {
+            display: flex;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            padding: 20px;
+
+        }
+
+        .row {
+            justify-content: center;
+        }
+
+        #copyright {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-sm  ">
+
+            <a href="index.html" class="navbar-brand">
+                <img src="blueline.jpeg" id="logo" style="width: 130px;">
+            </a>
+
+            <!-- links -->
+            <h2>BLUELINE</h2>
+            <ul class="navbar-nav ">
+
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="aboutus.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="booking.html" class="nav-link">Booking</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Applyed carousel  -->
+        <div>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide="0" class="active"></li>
+                    <li data-target="#demo" data-slide="1"></li>
+                    <li data-target="#demo" data-slide="2"></li>
+                    <li data-target="#demo" data-slide="3"></li>
+                </ul>
+                <div class="carousel-inner" id="images">
+                    <div class="carousel-item active">
+                        <img src="t3.jpg" height="555px" width="100%">
+
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="t8.jpg" width="100%" height="555px">
+
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="t6.webp" width="100%" height="555px">
+
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="t7.jpg" width="100%" height="555px">
+
+                    </div>
+                </div>
+                <a href="#demo" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+
+                <a href="#demo" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+        </div>
+        <hr style="box-shadow: 1px 1px 3px black;">
+        <!-- cards -->
+
+        <div id="cards">
+
+
+            <div class="card" id="c1" style="width: 300px; ">
+
+                <img class="card-img-top" src="c3.jpeg" style="50%"><hr>
+                <div class="card-body">
+                    <h4 class="card-title">Employee Transpormation</h4>
+                    <p class="card-text">We are well known for outstanding customer service, which has helped us gain an
+                        enviable client list. We ensure that all our drivers have been properly profiled by the security
+                        agencies and all safety protocols are adhered to so that our customer is assured of a safe ride.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="card" id="c2" style="width: 300px;">
+
+                <img class="card-img-top" src="c1.jpeg" style="50%"> <hr>
+                <div class="card-body">
+                    <h4 class="card-title">Special Tourist Package</h4>
+                    <p class="card-text">Blue Line offers Holiday Packages for destinations in India and around the
+                        world. Our holiday packages offers you great value for money spent with the best travel and stay
+                        options at unbelievably reasonable prices. We also offer custom holiday packages.
+                    </p>
+
+                </div>
+
+            </div> 
+
+
+            <div class="card" id="c3" style="width: 300px;">
+
+                <img class="card-img-top" src="c2.jpeg" style="50%"><hr>
+                <div class="card-body">
+                    <h4 class="card-title">Weekend leisure Trip</h4>
+                    <p class="card-text">Blue Line Tours and Travels offers custom designed excursions during the
+                        weekends to allow the employees to unwind after going through a hectic work week. Our weekend
+                        excursions and overnight stays are designed to make the employees completely relaxed.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <hr style="box-shadow: 1px 1px 3px black;">
+
+        <footer class="  ">
+            <div class="row">
+                <div class=" col-sm-4">
+
+                    <h5><u>Contact</u></h5>
+                    <hr>
+                    <p>
+                        Landline : +91 1234567891 <br>
+                        Mobile : +91 1234567891 <br>
+                        Email : abc@gmail.com
+
+                    </p>
+
+                </div>
+
+                <div class=" col-sm-4">
+                    <h5><u>Term Of Service</u></h5>
+                    <hr>
+                    <p>
+                        owned and operated by Blue Line Tours & Travels, a proprietorship firm registered under the laws
+                        of India. Your use of the Website and services and tools are governed by the following terms and
+                        conditions (“Terms of Service”) as applicable to the Website including the applicable policies
+                        which are incorporated herein by way of reference
+
+                    </p>
+                </div>
+
+                <div class=" col-sm-4">
+                    <h5><u>Privacy Policy</u></h5>
+                    <hr>
+                    <p>
+                        We collect information about
+                        you to process your bookings and to make your web experience more personalized. Your name,
+                        e-mail address, mailing address, credit card number and expiration date allow us to fulfill your
+                        order and to inform you of your order status.
+                        Blueline Tours and Travels does not sell, trade or rent your personal information to others. The
+                        website may release account information when it believes, in good faith that such release is
+                        reasonably necessary to
+
+                    </p>
+                </div>
+            </div>
+            <hr style="width: 800px;">
+            <p id="copyright">
+                Blueline Tours and Travels | Powered By <a href="https://prashantrandive001.github.io/Portfolio/">Randive Prashant</a>
+            </p>
+
+        </footer>
+    </div>
+</body>
+
+</html>
